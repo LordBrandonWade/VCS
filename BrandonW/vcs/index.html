@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Brandon Wade | Version Control System | May 2019</h1>
+    <img src="images/git.png" alt="idk">
+
+    <p>https://sbme-tutorials.github.io/2019/microprocessor/notes/4_week4.html</p>
+    <pre><font color="#8AE234"><b>compsci@compsci-VBox</b></font>:<font color="#729FCF"><b>~</b></font>$ sudo apt update</pre>
+    <pre><font color="#8AE234"><b>compsci@compsci-VBox</b></font>:<font color="#729FCF"><b>~</b></font>$ sudo apt install git</pre>
+    <pre><font color="#8AE234"><b>compsci@compsci-VBox</b></font>:<font color="#729FCF"><b>~</b></font>$ git --version</pre>
+    <pre><font color="#8AE234"><b>compsci@compsci-VBox</b></font>:<font color="#729FCF"><b>~</b></font>$ git config --global user.name &quot;LordBrandonWade&quot;</pre>
+    <pre><font color="#8AE234"><b>compsci@compsci-VBox</b></font>:<font color="#729FCF"><b>~</b></font>$ git config --global user.email &quot;browade02@hotmail.com&quot;</pre>
+    <pre><font color="#8AE234"><b>compsci@compsci-VBox</b></font>:<font color="#729FCF"><b>~</b></font>$ git config --list
+        user.name=LordBrandonWade
+        user.email=browade02@hotmail.com</pre>
+    <pre><font color="#8AE234"><b>compsci@compsci-VBox</b></font>:<font color="#729FCF"><b>/var/www/html/brandonw</b></font>$ git init</pre>
+    <pre><font color="#8AE234"><b>compsci@compsci-VBox</b></font>:<font color="#729FCF"><b>/var/www/html/brandonw</b></font>$ git config --help</pre>
+    <pre><font color="#8AE234"><b>compsci@compsci-VBox</b></font>:<font color="#729FCF"><b>/var/www/html/brandonw/projects/vcs</b></font>$ rm -rf .git</pre>
+    <pre><font color="#8AE234"><b>compsci@compsci-VBox</b></font>:<font color="#729FCF"><b>/var/www/html/brandonw/projects/vcs</b></font>$ ll</pre>
+    <pre><font color="#8AE234"><b>compsci@compsci-VBox</b></font>:<font color="#729FCF"><b>/var/www/html/brandonw/projects/vcs</b></font>$ git add -A</pre>
+    <pre><font color="#8AE234"><b>compsci@compsci-VBox</b></font>:<font color="#729FCF"><b>/var/www/html/brandonw/projects/vcs</b></font>$ git commit -m &quot;Hello World&quot;
+        [master (root-commit) 222a76a] Hello World
+         2 files changed, 26 insertions(+)
+         create mode 100644 images/git.png
+         create mode 100644 index.html
+        </pre>
+    <pre><font color="#8AE234"><b>compsci@compsci-VBox</b></font>:<font color="#729FCF"><b>/var/www/html/brandonw/projects/vcs</b></font>$ git status
+        On branch master
+        nothing to commit, working tree clean
+    </pre>
+    <pre><font color="#8AE234"><b>compsci@compsci-VBox</b></font>:<font color="#729FCF"><b>/var/www/html/brandonw/projects/vcs</b></font>$ git log
+        <font color="#C4A000">commit 222a76a264513a4e135f3f16d5c507dd48f37bb6 (</font><font color="#34E2E2"><b>HEAD -&gt; </b></font><font color="#8AE234"><b>master</b></font><font color="#C4A000">)</font>
+        Author: LordBrandonWade &lt;browade02@hotmail.com&gt;
+        Date:   Thu May 23 13:33:07 2019 -0600
+            
+            Hello World</pre>
+        <h5>today i havent used the bathroom. i refuse</h5>
+    <pre><font color="#8AE234"><b>compsci@compsci-VBox</b></font>:<font color="#729FCF"><b>/var/www/html/brandonw/projects/vcs</b></font>$ git diff</pre>
+    <pre><font color="#8AE234"><b>compsci@compsci-VBox</b></font>:<font color="#729FCF"><b>/var/www/html/brandonw/projects/vcs</b></font>$ git reset -A</pre>
+</body>
+
+</html>
